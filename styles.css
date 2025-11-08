@@ -22,9 +22,9 @@ body {
     width: 100%;
     height: 100%;
     background:
-        radial-gradient(circle at 20% 50%, rgba(88, 86, 214, 0.15) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(126, 87, 194, 0.15) 0%, transparent 50%),
-        radial-gradient(circle at 40% 20%, rgba(58, 134, 255, 0.1) 0%, transparent 50%);
+        radial-gradient(circle at 20% 50%, rgba(88, 86, 214, 0.35) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(126, 87, 194, 0.35) 0%, transparent 50%),
+        radial-gradient(circle at 40% 20%, rgba(58, 134, 255, 0.25) 0%, transparent 50%);
     z-index: 0;
     pointer-events: none;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 header {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .logo {
