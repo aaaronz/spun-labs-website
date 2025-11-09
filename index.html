@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spun Labs</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="background-gradient"></div>
@@ -19,13 +20,22 @@
                 <h2 class="tagline">Democratizing music recording quality with generative AI</h2>
             </section>
 
-            <section class="contact">
-                <a href="mailto:hello@spunlabs.ai" class="email-button">
-                    <span>Get in touch</span>
-                    <span class="arrow">→</span>
-                </a>
-                <p class="email-text">hello@spunlabs.ai</p>
+            <section class="waitlist">
+                <h3 class="waitlist-title">Join the Waitlist</h3>
+                <form class="waitlist-form" id="waitlistForm">
+                    <input
+                        type="email"
+                        class="email-input"
+                        placeholder="Enter your email"
+                        required
+                    />
+                    <button type="submit" class="submit-button">
+                        <span>Join</span>
+                        <span class="arrow">→</span>
+                    </button>
+                </form>
             </section>
+
         </main>
 
         <footer>
